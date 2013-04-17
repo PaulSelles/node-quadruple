@@ -4,7 +4,7 @@
   "description": "Quadruple precision floating-point using gcc libquadmath.",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine-node test/spec/quadmath.spec.js",
+    "test": "jasmine-node spec/quadmath.spec.js",
     "install": "node-gyp rebuild"
   },
   "repository": "git@github:PaulSelles/node-quadmath",
